@@ -1,331 +1,396 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-	      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-	      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <a class="logo" href="#">
+        <img src="assets/images/logo.png" alt="" />
+      </a>
 
-</head>
-<body>
+      <div class="navbar-toggler" type="button" id="bar">
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+      </div>
 
-<div class="nav">
-	<a class="logo" href="#">
-		<img src="assets/images/logo.png" alt="">
-	</a>
+      <div class="menu-bar" id="navbar">
+        <ul class="menu-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
 
-	<div class="navbar-toggler" type="button" id="bar">
-		<span class="toggler-icon"></span>
-		<span class="toggler-icon"></span>
-		<span class="toggler-icon"></span>
-	</div>
+      <div class="navbar-social">
+        <span>FOLLOW US</span>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
 
-	<div class="menu-bar" id="navbar">
-		<ul class="menu-items">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#service">Service</a></li>
-			<li><a href="#pricing">Pricing</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</div>
+      <div class="toggle-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
 
-	<div class="navbar-social">
-		<span>FOLLOW US</span>
-		<ul>
-			<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-		</ul>
-	</div>
+    <div class="back" id="home">
+      <div class="overlay"></div>
+      <div class="hero-shape">
+        <img src="assets/images/header-shape.svg" alt="" />
+      </div>
+    </div>
 
-	<div class="toggle-menu">
-		<i class="fa-solid fa-bars"></i>
-	</div>
+    <div class="hero-text">
+      <h3>We Are A Strategic Marketing, Media And Ideas Agency</h3>
+      <h6>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+        adipisci alias aliquam aspernatur aut beatae culpa debitis ...
+      </h6>
 
-</div>
+      <ul class="header-btn">
+        <li><a href="#" class="main-btn brn-one">GET IN TOUCH</a></li>
+        <li>
+          <a href="#" class="main-btn brn-two"
+            >WATCH THE VIDEO <i class="fa fa-play"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-<div class="back " id="home">
-	<div class="overlay"></div>
-	<div class="hero-shape">
-		<img src="assets/images/header-shape.svg" alt="">
-	</div>
-</div>
+    <section id="wrapper">
+      <section id="service" class="service offset">
+        <h3>Crafted For</h3>
+        <h6>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+          Accusamus adipisci alias aliquam aspernatur aut beatae culpa debitis
+          ...
+        </h6>
 
-<div class="hero-text">
-	<h3>We Are A Strategic Marketing, Media And Ideas Agency</h3>
-	<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci alias
-		aliquam aspernatur aut beatae culpa debitis ...
-	</h6>
+        <div class="service-content">
+          <div class="box">
+            <div class="box-one">
+              <div class="service">
+                <div class="service-icon">
+                  <i class="fa fa-bar-chart"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="service-title">SaaS Business</h4>
+                  <p class="text">
+                    Short description for the ones <br />
+                    who look for something new.
+                  </p>
+                </div>
+              </div>
 
-	<ul class="header-btn">
-		<li><a href="#" CLASS="main-btn brn-one">GET IN TOUCH</a></li>
-		<li><a href="#" CLASS="main-btn brn-two">WATCH THE VIDEO <i class="fa fa-play"></i> </a></li>
-	</ul>
-</div>
+              <div class="service">
+                <div class="service-icon">
+                  <i class="fa fa-coffee"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="service-title">SaaS Business</h4>
+                  <p class="text">
+                    Short description for the ones <br />
+                    who look for something new.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-<section id="wrapper">
+            <div class="box-one">
+              <div class="service">
+                <div class="service-icon">
+                  <i class="fa fa-bell"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="service-title">SaaS Business</h4>
+                  <p class="text">
+                    Short description for the ones <br />
+                    who look for something new.
+                  </p>
+                </div>
+              </div>
 
-	<section id="service" class="service offset">
-		<h3>Crafted For</h3>
-		<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Accusamus adipisci alias
-			aliquam aspernatur aut beatae culpa debitis ...
-		</h6>
+              <div class="service">
+                <div class="service-icon">
+                  <i class="fa-solid fa-chart-area"></i>
+                </div>
+                <div class="service-content">
+                  <h4 class="service-title">SaaS Business</h4>
+                  <p class="text">
+                    Short description for the ones <br />
+                    who look for something new.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-		<div class="service-content">
-			<div class="box">
-				<div class="box-one">
-					<div class="service">
-						<div class="service-icon">
-							<i class="fa fa-bar-chart"></i>
-						</div>
-						<div class="service-content">
-							<h4 class="service-title">SaaS Business</h4>
-							<p class="text">
-								Short description for the ones <br> who look for something new.
-							</p>
-						</div>
-					</div>
+          <div class="service-img">
+            <img src="assets/images/1.png" alt="" />
+          </div>
+        </div>
+      </section>
 
-					<div class="service">
-						<div class="service-icon">
-							<i class="fa fa-coffee"></i>
-						</div>
-						<div class="service-content">
-							<h4 class="service-title">SaaS Business</h4>
-							<p class="text">
-								Short description for the ones <br> who look for something new.
-							</p>
-						</div>
-					</div>
-				</div>
+      <section id="pricing" class="pricing offset">
+        <h3>Our Pricing</h3>
+        <h6>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+          Accusamus adipisci alias aliquam aspernatur aut beatae culpa debitis
+          ...
+        </h6>
 
-				<div class="box-one">
-					<div class="service">
-						<div class="service-icon">
-							<i class="fa fa-bell"></i>
-						</div>
-						<div class="service-content">
-							<h4 class="service-title">SaaS Business</h4>
-							<p class="text">
-								Short description for the ones <br> who look for something new.
-							</p>
-						</div>
-					</div>
+        <div class="table">
+          <div class="basic">
+            <div class="b-head">
+              <h3>Basic</h3>
+            </div>
+            <div class="price">
+              <span class="sing">$</span>
+              <span class="currency">99</span>
+              <span class="cent">.99/</span>
+              <span class="month">MON</span>
+            </div>
+            <ul>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Carefully crafted
+                components
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Amazing page examples
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Super friendly
+                support team
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Awesome Support
+              </li>
+            </ul>
 
-					<div class="service">
-						<div class="service-icon">
-							<i class="fa-solid fa-chart-area"></i>
-						</div>
-						<div class="service-content">
-							<h4 class="service-title">SaaS Business</h4>
-							<p class="text">
-								Short description for the ones <br> who look for something new.
-							</p>
-						</div>
-					</div>
-				</div>
+            <ul class="header-btn">
+              <a href="#" class="main-btn brn-two">See More </a>
+            </ul>
+          </div>
 
-			</div>
+          <div class="basic standard">
+            <div class="b-head">
+              <h3>STANDARD</h3>
+            </div>
+            <div class="price">
+              <span class="sing">$</span>
+              <span class="currency">199</span>
+              <span class="cent">.99/</span>
+              <span class="month">MON</span>
+            </div>
+            <ul>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Carefully crafted
+                components
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Amazing page examples
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Super friendly
+                support team
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Super friendly
+                support team
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Awesome Support
+              </li>
+            </ul>
 
-			<div class="service-img">
-				<img src="assets/images/1.png" alt="">
-			</div>
-		</div>
-	</section>
+            <ul class="header-btn">
+              <a href="#" class="main-btn brn-two">See More </a>
+            </ul>
+          </div>
 
-	<section id="pricing" class="pricing offset">
-		<h3>Our Pricing</h3>
-		<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Accusamus adipisci alias
-			aliquam aspernatur aut beatae culpa debitis ...
-		</h6>
+          <div class="basic">
+            <div class="b-head">
+              <h3>ULTIMATE</h3>
+            </div>
+            <div class="price">
+              <span class="sing">$</span>
+              <span class="currency">399</span>
+              <span class="cent">.99/</span>
+              <span class="month">MON</span>
+            </div>
+            <ul>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Carefully crafted
+                components
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Amazing page examples
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Super friendly
+                support team
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check"></i> Awesome Support
+              </li>
+            </ul>
 
-		<div class="table">
-			<div class="basic">
-				<div class="b-head">
-					<h3>Basic</h3>
-				</div>
-				<div class="price">
-					<span class="sing">$</span>
-					<span class="currency">99</span>
-					<span class="cent">.99/</span>
-					<span class="month">MON</span>
-				</div>
-				<ul>
-					<li><i class="fa-regular fa-circle-check"></i> Carefully crafted components</li>
-					<li><i class="fa-regular fa-circle-check"></i> Amazing page examples</li>
-					<li><i class="fa-regular fa-circle-check"></i> Super friendly support team</li>
-					<li><i class="fa-regular fa-circle-check"></i> Awesome Support</li>
-				</ul>
+            <ul class="header-btn">
+              <a href="#" class="main-btn brn-two">See More </a>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-				<ul class="header-btn">
-					<a href="#" CLASS="main-btn brn-two">See More </a>
-				</ul>
+      <section class="callToAct">
+        <div class="parallax">
+          <div class="call-content">
+            <h3 class="call-title">
+              Curious to Learn More? <br />
+              Stay Tuned
+            </h3>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consectetur dolor dolorum, ex exercitationem ...
+            </p>
+            <div class="call-news">
+              <i class="fa fa-envelope"></i>
+              <input type="text" placeholder="jhon@email.com" name="" />
+              <button type="submit">SUBSCRIBE</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-			</div>
+      <section class="contact offset" id="contact">
+        <h3>Get In touch</h3>
+        <h6>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+          Accusamus adipisci alias aliquam aspernatur aut beatae culpa debitis
+          ...
+        </h6>
 
-			<div class="basic standard">
-				<div class="b-head">
-					<h3>STANDARD</h3>
-				</div>
-				<div class="price">
-					<span class="sing">$</span>
-					<span class="currency">199</span>
-					<span class="cent">.99/</span>
-					<span class="month">MON</span>
-				</div>
-				<ul>
-					<li><i class="fa-regular fa-circle-check"></i> Carefully crafted components</li>
-					<li><i class="fa-regular fa-circle-check"></i> Amazing page examples</li>
-					<li><i class="fa-regular fa-circle-check"></i> Super friendly support team</li>
-					<li><i class="fa-regular fa-circle-check"></i> Super friendly support team</li>
-					<li><i class="fa-regular fa-circle-check"></i> Awesome Support</li>
-				</ul>
+        <div class="form">
+          <div class="first-row">
+            <input type="text" placeholder="Name" name="" />
+            <input type="text" placeholder="e-mail" name="" />
+          </div>
+          <div class="first-row">
+            <input type="text" placeholder="Subject" name="" />
+            <input type="text" placeholder="phone" name="" />
+          </div>
 
-				<ul class="header-btn">
-					<a href="#" CLASS="main-btn brn-two">See More </a>
-				</ul>
+          <textarea placeholder="Message " rows="5"></textarea>
 
-			</div>
+          <ul class="header-btn">
+            <a href="#" class="main-btn brn-two">Submit </a>
+          </ul>
+        </div>
+      </section>
+    </section>
 
-			<div class="basic">
-				<div class="b-head">
-					<h3>ULTIMATE</h3>
-				</div>
-				<div class="price">
-					<span class="sing">$</span>
-					<span class="currency">399</span>
-					<span class="cent">.99/</span>
-					<span class="month">MON</span>
-				</div>
-				<ul>
-					<li><i class="fa-regular fa-circle-check"></i> Carefully crafted components</li>
-					<li><i class="fa-regular fa-circle-check"></i> Amazing page examples</li>
-					<li><i class="fa-regular fa-circle-check"></i> Super friendly support team</li>
-					<li><i class="fa-regular fa-circle-check"></i> Awesome Support</li>
-				</ul>
+    <footer>
+      <div class="row-one">
+        <a href="#" class="logo">
+          <img src="assets/images/logo.png" alt="" />
+        </a>
 
-				<ul class="header-btn">
-					<a href="#" CLASS="main-btn brn-two">See More </a>
-				</ul>
-			</div>
-		</div>
-	</section>
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
 
-	<section class="callToAct">
+      <div class="second-row">
+        <div class="first-row">
+          <h6 class="footer-title">Company</h6>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
 
-		<div class="parallax">
-			<div class="call-content">
-				<h3 class="call-title">Curious to Learn More? <br> Stay Tuned</h3>
-				<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolor dolorum,
-					ex exercitationem ...
-				</p>
-				<div class="call-news">
-					<i class="fa fa-envelope"></i>
-					<input type="text" placeholder="jhon@email.com" name="">
-					<button type="submit">SUBSCRIBE</button>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="first-row">
+          <h6 class="footer-title">Product & Service</h6>
+          <ul>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Developer</a></li>
+          </ul>
+        </div>
 
-	<section class="contact offset" id="contact">
-		<h3>Get In touch</h3>
-		<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Accusamus adipisci alias
-			aliquam aspernatur aut beatae culpa debitis ...
-		</h6>
+        <div class="first-row">
+          <h6 class="footer-title">Help & Support</h6>
+          <ul>
+            <li><a href="#">Support Center</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
 
-		<div class="form">
-			<div class="first-row">
-				<input type="text" placeholder="Name" name="">
-				<input type="text" placeholder="e-mail" name="">
-			</div>
-			<div class="first-row">
-				<input type="text" placeholder="Subject" name="">
-				<input type="text" placeholder="phone" name="">
-			</div>
+        <div class="first-row">
+          <h6 class="footer-title">Subscribe Newsletter</h6>
+          <div class="newsletter">
+            <input type="text" name="" placeholder="Your Email" />
+            <button type="submit">
+              <i class="fa-solid fa-angles-right"></i>
+            </button>
+          </div>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit...!
+          </p>
+        </div>
+      </div>
+    </footer>
 
-			<textarea placeholder="Message " rows="5"></textarea>
+    <div class="copyright">
+      <p>
+        Template Crafted by
+        <a href="https://github.com/beyzaaakeser/BussinessWeb.git" style="font-style: italic">Beyza Keser</a>
+      </p>
+    </div>
 
-			<ul class="header-btn">
-				<a href="#" CLASS="main-btn brn-two">Submit </a>
-			</ul>
-		</div>
-	</section>
-
-</section>
-
-<footer>
-	<div class="row-one">
-		<a href="#" class="logo">
-			<img src="assets/images/logo.png" alt="">
-		</a>
-
-		<ul>
-			<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-		</ul>
-	</div>
-
-	<div class="second-row">
-
-		<div class="first-row">
-			<h6 class="footer-title">Company</h6>
-			<ul>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Career</a></li>
-			</ul>
-		</div>
-
-		<div class="first-row">
-			<h6 class="footer-title">Product & Service</h6>
-			<ul>
-				<li><a href="#">Product</a></li>
-				<li><a href="#">Business</a></li>
-				<li><a href="#">Developer</a></li>
-			</ul>
-		</div>
-
-		<div class="first-row">
-			<h6 class="footer-title">Help & Support</h6>
-			<ul>
-				<li><a href="#">Support Center</a></li>
-				<li><a href="#">FAQ</a></li>
-				<li><a href="#">Terms & Conditions</a></li>
-			</ul>
-		</div>
-
-		<div class="first-row">
-			<h6 class="footer-title">Subscribe Newsletter</h6>
-			<div class="newsletter">
-				<input type="text" name="" placeholder="Your Email">
-				<button type="submit"><i class="fa-solid fa-angles-right"></i></button>
-			</div>
-			<p class="text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit...!
-			</p>
-		</div>
-
-	</div>
-</footer>
-
-<div class="copyright">
-	<p>
-		Template Crafted by <a href="#">K-Software</a>
-	</p>
-</div>
-
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
